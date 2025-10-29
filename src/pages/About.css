@@ -1,0 +1,55 @@
+
+about-section {
+  background: linear-gradient(135deg, #e6f7f7 0%, #c1eceb 50%, #a6e1df 100%);
+  min-height: 100vh;
+  color: #0a7070;
+}
+
+.about-section h2 {
+  font-weight: 700;
+  color: #087373;
+}
+
+.about-card {
+  background-color: white;
+  border-radius: 20px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  border: none;
+}
+
+.about-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.about-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #0ba6a4;
+  transition: transform 0.4s ease;
+}
+
+
+.about-card:hover .about-img {
+  transform: scale(1.07);
+}
+
+.about-card h4 {
+  font-weight: 600;
+  color: #0a7070;
+}
+
+.about-card p {
+  color: #333;
+  font-size: 0.95rem;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .about-img {
+    width: 120px;
+    height: 120px;
+  }
+}

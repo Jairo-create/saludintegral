@@ -1,0 +1,55 @@
+
+.home {
+  text-align: center;
+  margin-top: 1rem;
+  
+}
+
+.carousel-img {
+  width: 100%;
+  height: 115vh; 
+  max-height: 800px; 
+  object-fit: cover; 
+  border-radius: 15px;
+}
+.carousel-caption h3 {
+  background-color: rgba(0, 166, 164, 0.8);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+.carousel-caption p {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #eee;
+  border-radius: 8px;
+  padding: 0.3rem 0.8rem;
+  display: inline-block;
+}
+
+.info-section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #f5f9f9;
+  border-radius: 15px;
+}
+
+.info-section h2 {
+  color: #0ba6a4;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .carousel-img {
+    height: 300px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 1rem;
+  }
+
+  .carousel-caption p {
+    font-size: 0.9rem;
+  }
+}

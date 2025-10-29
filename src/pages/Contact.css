@@ -1,0 +1,135 @@
+
+.contact {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.contact:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.contact h2 {
+  text-align: center;
+  color: #0ba6a4;
+  margin-bottom: 0.5rem;
+}
+
+.contact p {
+  text-align: center;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form label {
+  font-weight: 600;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  width: 100%;
+  transition: all 0.3s ease;
+  background-color: #fafafa;
+}
+
+/* Efecto al enfocar los campos */
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  border-color: #0ba6a4;
+  background-color: #ffffff;
+  box-shadow: 0 0 8px rgba(11, 166, 164, 0.3);
+  outline: none;
+}
+
+/* Transición del botón */
+.submit-btn {
+  background-color: #0ba6a4;
+  color: white;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(11, 166, 164, 0.2);
+}
+
+.submit-btn:hover {
+  background-color: #098f8d;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(11, 166, 164, 0.3);
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+}
+
+.success-message {
+  color: #2e7d32;
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 500;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 1.5rem;
+  }
+
+  .submit-btn {
+    width: 100%;
+  }
+}
+
+.preview-container {
+  margin-top: 1rem;
+  text-align: center;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.preview-img {
+  max-width: 150px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(11, 166, 164, 0.3);
+}
+
+.pdf-preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: #0ba6a4;
+  font-weight: 500;
+  font-size: 1rem;
+}
