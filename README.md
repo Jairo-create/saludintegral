@@ -1,16 +1,33 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Salud Integral App 🩻
 
-Currently, two official plugins are available:
+En el Centro de Diagnóstico Salud Integral, trabajamos cada día con el compromiso de brindar atención precisa, confiable y humana. Nuestro objetivo es ofrecer a cada paciente un servicio de alta calidad, basado en la tecnología de vanguardia y el profesionalismo de nuestro equipo médico.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Contamos con modernas instalaciones y equipos de última generación que permiten realizar estudios diagnósticos con exactitud y rapidez, garantizando resultados confiables para un tratamiento oportuno.
+Nos especializamos en diversas áreas como laboratorio clínico, radiología,imagenes diagnósticas, oftalmología y vacunación diseñados para cuidar tu salud y bienestar.
 
-## React Compiler
+![app](/public/saludIntegral.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Instalación
 
-## Expanding the ESLint configuration
+1. Clonar repositorio
+2. Hacer el comando `cd saludintegral`de esta forma, podrás moverte a la carpeta principal del proyecto.
+3. Instale dependencias con el comando `npm install`.
+4. Para levantar la app en el servidor local ejecute el comando `npm run dev`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+### Versión Host 
+
+Si desea ver el proyecto de forma online, ingrese al siguiente link: [Salud Integral](https://saludintegral.vercel.app/)
+
+### Librerias Utilizadas
+
+-[React Boostrap](https://react-bootstrap.netlify.app/) : Se utilizo para el estilo de la app.
+
+-[React Router Dom](https://reactrouter.com/) : Se utilizo para la nevegación dentro de la app.
+
+-[SweetAlert2](https://sweetalert2.github.io/): Se utilizó para realizar algunas alertas. 
+
+
+
+Desarrollado por Jairo Sandoval.
